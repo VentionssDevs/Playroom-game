@@ -19,7 +19,7 @@ export const Experience = ({ downgradedPerformance = false }) => {
     // Start the game
     await insertCoin();
 
-    // Create a joystick controller for each joining player
+    // Create a joystick controller for each joining player and their guns
     onPlayerJoin((state) => {
       // Joystick will only create UI for current player (myPlayer)
       // For others, it will only sync their state
