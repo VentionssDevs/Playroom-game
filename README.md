@@ -3,24 +3,17 @@
 [Video tutorial](https://youtu.be/nQI8UNe6cfA)
 
 
-Play the game here 👉 https://r3f-playroom-multiplayer-u4.vm.elestio.app/
 
-Enable multiplayer to your game with [Playroom](https://joinplayroom.com/?=wawasensei)
 
 ## Setup
 
 
 Install the dependencies and start the development server with
 ```
-yarn
-yarn dev
+npm i
+npm start
 ```
 
-To have it accessible from your mobile run
-```
-yarn dev --host
-```
 _It must be connected to the same network_
 
 A huge thanks to Quaternius for his free assets!
-https://quaternius.com/packs/toonshootergamekit.html
